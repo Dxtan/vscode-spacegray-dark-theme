@@ -1,0 +1,32 @@
+{
+	"name": "spacegray-way-theme",
+	"displayName": "Spacegray Way Theme",
+	"description": "dark theme base on spacegray theme",
+	"version": "1.0.0",
+	"publisher": "jamietan-dev",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Dxtan/vscode-spacegray-dark-theme.git"
+	},
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Spacegray Way Theme",
+				"uiTheme": "vs-dark",
+				"path": "./my-dark-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1781316650231,
+		"targetPlatform": "undefined",
+		"size": 93223
+	}
+}
